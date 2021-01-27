@@ -4,7 +4,7 @@ public class CustomerDalNero implements CustomerDal {
 
 	// Normalde böyle oluþturmayacaðýz tabi DB'den gelecek, ben simule edebilmek
 	// için koydum
-	ArrayList<Customer> customers = new ArrayList<Customer>();
+	private ArrayList<Customer> customers = new ArrayList<Customer>();
 
 	@Override
 	public void register(Customer customer) {

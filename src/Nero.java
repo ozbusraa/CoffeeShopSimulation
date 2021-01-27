@@ -6,4 +6,5 @@ public class Nero extends Company {
 		// TODO Auto-generated constructor stub
 	}
 
+	// Gerekirse override edilerek özelleþtirilebilir
 }

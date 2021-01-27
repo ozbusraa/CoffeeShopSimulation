@@ -5,5 +5,5 @@ public class CustomerManagerNero extends CustomerManager {
 		super(company);
 	}
 	
-	// Gerekirse overwrite edilerek özelleþtirilebilir
+	// Gerekirse override edilerek özelleþtirilebilir
 }

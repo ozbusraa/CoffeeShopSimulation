@@ -21,7 +21,7 @@ public class CampaignManager {
 	};
 
 	public void applyCampaign(Campaign campaign) {
-		System.out.println("Kampanya uygulandý: " + campaign.campaignName);
+		System.out.println("Kampanya uygulandý: " + campaign.getCampaignName());
 
 	};
 	

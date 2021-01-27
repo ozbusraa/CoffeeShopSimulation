@@ -5,4 +5,5 @@ public class Starbucks extends Company {
 		super(companyName, campaignDal, customerDal, sellingDal);
 	}
 
+	// Gerekirse override edilerek özelleþtirilebilir
 }

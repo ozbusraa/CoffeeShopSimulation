@@ -1,9 +1,9 @@
 
 public class Campaign {
-	public String campaignName;
-	public String campaignConditions;
-	public int startYear;
-	public int endYear;
+	private String campaignName;
+	private String campaignConditions;
+	private int startYear;
+	private int endYear;
 	
 	
 	public Campaign(String campaignName) {

@@ -5,5 +5,5 @@ public class SellingServiceStarbucks extends SellingService {
 		super(campaignManager, company);
 	}
 
-	// Gerekirse overwrite edilerek özelleþtirilebilir
+	// Gerekirse override edilerek özelleþtirilebilir
 }

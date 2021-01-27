@@ -4,7 +4,7 @@ public class CampaignDalStarbucks implements CampaignDal {
 
 	// Normalde böyle oluþturmayacaðýz tabi DB'den gelecek, ben simule edebilmek
 	// için koydum
-	ArrayList<Campaign> campaigns = new ArrayList<Campaign>();
+	private ArrayList<Campaign> campaigns = new ArrayList<Campaign>();
 	
 	@Override
 	public void add(Campaign campaign) {

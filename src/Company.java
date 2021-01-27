@@ -1,10 +1,10 @@
 
-public class Company {
+public abstract class Company {
 
-	public String companyName;
-	CampaignDal campaignDal;
-	CustomerDal customerDal;
-	SellingDal sellingDal;
+	private String companyName;
+	private CampaignDal campaignDal;
+	private CustomerDal customerDal;
+	private SellingDal sellingDal;
 
 	public Company(String companyName, CampaignDal campaignDal, CustomerDal customerDal, SellingDal sellingDal) {
 		this.companyName = companyName;

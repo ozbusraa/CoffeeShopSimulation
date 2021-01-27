@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		//Create Companies
-		Company Starbucks = new Company("Starbucks", new CampaignDalStarbucks(), new CustomerDalStarbucks(),new SellingDalStarbucks());
-		Company Nero = new Company("Nero", new CampaignDalNero(), new CustomerDalNero(), new SellingDalNero());
+		Company Starbucks = new Starbucks("Starbucks", new CampaignDalStarbucks(), new CustomerDalStarbucks(),new SellingDalStarbucks());
+		Company Nero = new Nero("Nero", new CampaignDalNero(), new CustomerDalNero(), new SellingDalNero());
 
 		//Create Customers
 		Customer busra = new Customer("2781111", "Büþra", "Öz", "1996");
